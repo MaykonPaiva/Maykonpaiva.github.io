@@ -28,7 +28,7 @@
 
 #bio-container {
     flex: 1 1 20%;
-    min-height: 115vh;
+    min-height: 100vh;
     background-color: var(--bio-bg-color);
     text-align: center;
     padding: 30px 12px;
@@ -226,7 +226,7 @@ img {
  
  
  
- @media(max-width: 576px) {
+ @media(max-width: 450px) {
      
      #container{
          flex-direction: column;
@@ -236,7 +236,7 @@ img {
          min-width: auto;
          border-right: none;
          border-bottom: 5px solid var(--bio-border-color);
-         width: 576px;
+         /*width: 576px;*/
      }
      #bio-container h2 {
          display: none;

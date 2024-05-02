@@ -236,7 +236,7 @@ img {
          min-width: auto;
          border-right: none;
          border-bottom: 5px solid var(--bio-border-color);
-         min-width: 576px;
+         width: 400px;
      }
      #bio-container h2 {
          display: none;
